@@ -12,36 +12,36 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 ### Equipes e padrões desenvolvidos
 
-#### Equipe Agenday
+#### Equipe Agenday - Representante[Anna Alicia]
 
 - [ ] MVC
 
-#### Equipe Cronoz
+#### Equipe Cronoz - Representante[Gabriel Sena San Martin]
 
 - [ ] Factory Method
 - [ ] Abstract Factory 
 - [ ] Adapter
 - [ ] Composite
 
-#### Miagenda
+#### Miagenda - Representante[Beatriz Moura da Silva]
 
 - [ ] Bridge 
 - [ ] Facade
 - [ ] Command
 
-#### LineUp
+#### LineUp - Representante[Vinicius Soares da Costa]
 
 - [ ] Strategy
 - [ ] Observer
 - [ ] Flyweight
 
-#### Genda
+#### Genda - Representante[Paulo Sérgio da Silva Freitas]
 
 - [ ] Singleton
 - [ ] Decorator
 - [ ] Prototype
 
-#### Digiagenda
+#### Digiagenda - Representante[Vanessa de Souza Câmara]
 
 - [ ] Builder
 - [ ] Proxy
