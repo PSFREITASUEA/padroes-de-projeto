@@ -1,36 +1,19 @@
 ## Padrões de projeto
-##### Atividade 13 de Modelagem e Projeto de Sistemas.
+**Atividade 13 de Modelagem e Projeto de Sistemas.**
 
 Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRST DESIGN PATTERNS em anexo.
 
-**Agenday: Anna Alicia**
-MVC
+**Agenday: Anna Alicia** - MVC
 
-**Cronoz: Gabriel Sena San Martin**
-Factory Method
-Abstract Factory 
-Adapter
-Composite
+**Cronoz: Gabriel Sena San Martin** - Factory Method, Abstract Factory, Adapter, Composite
 
-**miagenda: Beatriz Moura da Silva**
-Bridge
-Facade
-Command
+**miagenda: Beatriz Moura da Silva** - Bridge, Facade, Command
 
-**LineUp: Vinicius Soares da Costa**
-Strategy
-Observer
-Flyweight
+**LineUp: Vinicius Soares da Costa** - Strategy, Observer, Flyweight
 
-**Genda: Paulo Sérgio da Silva Freitas**
-Singleton
-Decorator
-Prototype
+**Genda: Paulo Sérgio da Silva Freitas** - Singleton, Decorator, Prototype
 
-**digiagenda: Vanessa de Souza Câmara**
-Builder
-Proxy
-Chain of Responsibility
+**digiagenda: Vanessa de Souza Câmara** - Builder, Proxy, Chain of Responsibility
 
 
 Utilizar como referência:
