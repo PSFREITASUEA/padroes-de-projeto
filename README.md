@@ -22,7 +22,6 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 - [ ] Abstract Factory 
 - [ ] Adapter
 - [ ] Composite
-  
 
 #### Miagenda
 
@@ -50,3 +49,9 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 
 
+### Referências para estudos
+
+- [Tutorial de Diagramas de Classes UML](https://www.youtube.com/watch?v=rDidOn6KN9k)
+- [Qual a diferença entre Associação, Agregação e Composição em OOP?](https://pt.stackoverflow.com/questions/86715/qual-a-diferença-entre-associação-agregação-e-composição-em-oop)
+- [Python Design Patterns (python-patterns.guide)](https://python-patterns.guide/)
+- [Padrões de Projeto em Python (refactoring.guru)](https://refactoring.guru/pt-br/design-patterns/python)
