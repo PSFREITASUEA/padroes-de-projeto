@@ -37,7 +37,7 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 #### Genda - Representante[Paulo Sérgio da Silva Freitas]
 
-- [ ] Singleton
+- [x] Singleton
 - [ ] Decorator
 - [ ] Prototype
 
