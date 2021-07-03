@@ -39,7 +39,7 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 - [x] Singleton
 - [ ] Decorator
-- [ ] Prototype
+- [x] Prototype
 
 #### Digiagenda - Representante[Vanessa de Souza Câmara]
 
