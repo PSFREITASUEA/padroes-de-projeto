@@ -20,7 +20,7 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 - [x] Factory Method
 - [x] Abstract Factory 
-- [ ] Adapter
+- [x] Adapter
 - [ ] Composite
 
 #### Miagenda - Representante[Beatriz Moura da Silva]
