@@ -18,7 +18,7 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 #### Equipe Cronoz - Representante[Gabriel Sena San Martin]
 
-- [ ] Factory Method
+- [x] Factory Method
 - [ ] Abstract Factory 
 - [ ] Adapter
 - [ ] Composite
