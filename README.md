@@ -31,7 +31,7 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 #### LineUp - Representante[Vinicius Soares da Costa]
 
-- [ ] Strategy
+- [x] Strategy
 - [ ] Observer
 - [ ] Flyweight
 
