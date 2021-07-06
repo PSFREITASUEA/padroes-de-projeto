@@ -1,4 +1,4 @@
-from .menu_component import MenuComponent
+from menu_component import MenuComponent
 from typing import List
 
 

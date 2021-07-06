@@ -46,23 +46,18 @@ class MenuComponent(ABC):
 
     return False
 
-  @abstractmethod
   def get_name(self) -> str:
     raise NotImplementedError("Unsupported Operation")
 
-  @abstractmethod
   def get_description(self) -> str:
     raise NotImplementedError("Unsupported Operation")
 
-  @abstractmethod
   def get_price(self) -> float:
     raise NotImplementedError("Unsupported Operation")
 
-  @abstractmethod
   def is_vegetarian(self) -> bool:
     raise NotImplementedError("Unsupported Operation")
 
-  @abstractmethod
   def print(self) -> None:
     raise NotImplementedError("Unsupported Operation")
 

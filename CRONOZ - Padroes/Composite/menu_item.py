@@ -1,4 +1,4 @@
-from .menu_component import MenuComponent
+from menu_component import MenuComponent
 
 
 class MenuItem(MenuComponent):
