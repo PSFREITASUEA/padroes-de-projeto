@@ -24,7 +24,7 @@ class AbstractHandler(Handler):
     def set_next(self, handler: Handler) -> Handler:
         self._next_handler = handler
 
-        # retornar o handler daqui vai nos permitir lincar handlers
+        # retornar o handler daqui vai nos permitir fazer o link com handlers
         # de um jeito conveniente, como se fosse uma lista encadeada
         return handler
 
@@ -64,13 +64,13 @@ class ComplaintHandler(AbstractHandler):
 
 class NewLockHandler(AbstractHandler):
     def handle(self, request: Any) -> str:
-        if request == "Solicitação":
+        if request == "NewLock":
             return f"O tipo do e-mail é {request}"
         else:
             return super().handle(request)
 
 def codigo_cliente(handler: Handler) -> None:
-    for email in ["Reclamação", "Solicitação", "SPAM"]:
+    for email in ["Reclamação", "NewLock", "SPAM"]:
         print(f"\n-> Cliente: qual o tipo de e-mail para '{email}'?")
         result = handler.handle(email)
         if result:

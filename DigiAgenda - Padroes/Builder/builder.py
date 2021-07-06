@@ -1,5 +1,7 @@
+from abc import ABC, abstractmethod
+
 class Hotel():
-    def _init_(self, name, location):
+    def __init__(self, name, location):
         self.name = name    
         self.location = location
         
@@ -7,7 +9,7 @@ class Hotel():
         return (f'Nome: {self.name}, Location: {self.location}')
 
 class Reservation():
-    def _init_(self, nameHotel, arrivalDate, nights):
+    def __init__(self, nameHotel, arrivalDate, nights):
         self.nameHotel = nameHotel
         self.arrivalDate = arrivalDate
         self.nights = nights
@@ -16,7 +18,7 @@ class Reservation():
         return (f'Nome Hotel: {self.nameHotel}, Data: {self.arrivalDate}, Nights: {self.nights}')
 
 class Vacation():
-    def _init_(self):
+    def __init__(self):
         self.accommodations = []
         self.events = []
         self.reservas = []
@@ -48,13 +50,30 @@ class Vacation():
 
         return display
 
-class VacationBuilder():
-    def _init_(self):
+class AbstractBuilder(ABC):
+    @abstractmethod    
+    def adicionaHotel(self, name, location): 
+        pass
+
+    @abstractmethod
+    def adicionaReserva(self, nameHotel, date, nights):
+        pass
+
+    @abstractmethod
+    def adicionaEvento(self,event):
+        pass
+    
+    @abstractmethod
+    def pegaPlanoDeFerias(self):
+        pass
+
+class VacationBuilder(AbstractBuilder):
+    def __init__(self):
         self.name = ""
         self.hoteis = []
         self.reservas = []
         self.events = []
-    
+ 
     def adicionaHotel(self, name, location):
         self.hoteis.append(Hotel(name, location))
 
@@ -72,6 +91,7 @@ class VacationBuilder():
         vacation.setEvents(self.events)
         return vacation
 
+
 def main():
     vacation = VacationBuilder()
     vacation.adicionaHotel("Nome Hotel", "Manaus - AM")
@@ -83,5 +103,6 @@ def main():
 
     print(seuPlanoDeFerias.toString())
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
+
