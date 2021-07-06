@@ -43,9 +43,9 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 #### Digiagenda - Representante[Vanessa de Souza Câmara]
 
-- [ ] Builder
-- [ ] Proxy
-- [ ] Chain of Responsibility
+- [x] Builder
+- [x] Proxy
+- [x] Chain of Responsibility
 
 
 
