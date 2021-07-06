@@ -33,7 +33,7 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 
 - [x] Strategy
 - [x] Observer
-- [ ] Flyweight
+- [x] Flyweight
 
 #### Genda - Representante[Paulo Sérgio da Silva Freitas]
 
