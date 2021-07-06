@@ -32,7 +32,7 @@ Fazer o diagrama de classes e programar em python os exemplos do livro HEAD FIRS
 #### LineUp - Representante[Vinicius Soares da Costa]
 
 - [x] Strategy
-- [ ] Observer
+- [x] Observer
 - [ ] Flyweight
 
 #### Genda - Representante[Paulo Sérgio da Silva Freitas]
